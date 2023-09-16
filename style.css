@@ -1,6 +1,6 @@
 header{
     display: flex;
-    min-height: 70px;
+    min-height: 50px;
     background-color: gray;
     justify-content: space-between;
     align-items: center;
@@ -8,7 +8,7 @@ header{
 }
 .logo{
     align-items: center;
-    height: 70px;
+    height: 50px;
 }
 nav a{
     font-weight: 500;
@@ -22,4 +22,144 @@ nav a:hover{
 body{
     margin: 0;
     font-family: sans-serif;
+    background-color:black;
+}
+main{
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+#hero{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 50px;
+    max-width: 1200px;
+}
+.hero-texto{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 5px;
+    width: 50%;
+}
+
+.hero-texto h1{
+    width: 90%;
+    font-size: 60px;
+    font-weight: 800px;
+    color: aqua;
+}
+
+.hero-texto p{
+    font-size: 20px;
+    width: 70%;
+    color: darkgray;
+}
+
+.hero-boton{
+    gap:10px;
+    align-items: center;
+}
+
+.boton{
+    background-color:darkgray;
+    text-decoration: none;
+    color: aquamarine;
+    padding: 8px 20px;
+    border-radius: 8px;
+}
+
+.boton2{
+    background-color:aquamarine;
+    text-decoration: none;
+    color:darkgray;
+    padding: 8px 20px;
+    border-radius: 8px;
+}
+
+.hero-imagen{
+    background-color: grey;
+    padding: 20px;
+    border-radius: 15px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    justify-content: center;
+    width: 250px;
+}
+.liga{
+    height: 50px;
+    display: flex;
+}
+
+.hero-imagen-info{
+    font-family: sans-serif;
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.hero-imagen-top{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    gap: 10px;
+}
+
+.hero-imagen-top h3{
+    white-space:nowrap ;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.hero-imagen-top span{
+    background: aquamarine;
+    padding: 3px 10px;
+    border-radius: 8px;
+    font-size: 15px;
+    font-weight: 600;
+}
+
+.hero-imagen-boton{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    align-content: flex-start;
+    gap: 5px;
+}
+
+.liga-info p , .hero-imagen-precio p {
+    color: aquamarine;
+    font-weight: 600;
+}
+
+.liga-info span {
+    white-space:nowrap ;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    font-weight: 600;
+}
+.hero-imagen-precio span{
+    background: aquamarine;
+    padding: 3px 10px;
+    border-radius: 8px;
+    font-size: 15px;
+    font-weight: 600;
+}
+
+#info{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 50px;
+    max-width: 1200px;
+}
+#info p{
+    width: 70%;
+    color: darkgray;
+    font-size: 17px;
+    text-align: center;
 }
